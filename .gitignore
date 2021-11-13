@@ -1,3 +1,14 @@
 *.o
 *.a
 src/build/
+src/.vscode/
+test/
+Group16_Project2Heat_Equation.docx
+Group16_Project2Heat_Equation.pdf
+Group16_Project2Heat_Equation.zip
+Heat_Conduction_DirichletBC_129x129.vtk
+Heat_Conduction_DirichletBC_257x257.vtk
+Heat_Conduction_DirichletBC_65x65.vtk
+Heat_Conduction_Neumann_BC_129x129.vtk
+Heat_Conduction_Neumann_BC_257x257.vtk
+Heat_Conduction_Neumann_BC_65x65.vtk
