@@ -40,13 +40,13 @@ public:
                     tmp[i] = tmp[i] - ((matrix[matrixGrid.pos(j,i)] / matrix[matrixGrid.pos(i,i)] ) * unknownTemperature[j]);
                 }
                 // if( abs ( unknownTemperature[i] - tmp[i] ) <= tol)
-                //     flag++;
+                
                 unknownTemperature[i] = tmp[i];
             }
 
             m--;
 
-        } //while(flag < matrixGrid.nyValue());
+        } 
 
     }
 
